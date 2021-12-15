@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal-Bootstrap</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../css/stylesComponentes.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+
+
+    
+
+
+
+
+    <div class="row  descripcion-1" id="inicio">
+
+        <h1 class="bg-secondary bg-gradient col-12 col-md-12 d-flex justify-content-center align-items-center "
+            style="height: 100px;">
+            Modal</h1>
+        <div class=" d-flex flex-column justify-content-center " id="descripcion">
+
+            <h2 class="d-flex justify-content-center align-items-center  bg-info bg-gradient" style="height: 65px">
+                Descripción</h2>
+            <p class="col-12 col-md-12 p-4 fs-3 d-flex text-center mx-auto w-50 justify-content-center">
+                Los modales de Bootstrap agregan diálogos a su sitio con cajas de diálogo, notificaciones al usuario, o información
+                completamente personalizada.
+
+            </p>
+
+
+        </div>
+
+    </div><br><br>
+
+    <div class="d-flex flex-column">
+
+
+
+        <div class="alertas mx-auto w-25 d-flex mr-1 flex-column justify-content-center ">
+
+
+            <h3>Modals</h3>
+            <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Accionar Demo Modal
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ejemplo Modal 1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Hola Modals!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+        </div>
+
+
+        <div class="alertas mx-auto w-25 d-flex mr-1 flex-column justify-content-center ">
+        
+        
+            <h3>Fondo Estático</h3>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Launch static backdrop modal
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal Fondo Estático</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Se cierra únicamente presionando el botón close o la equis.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        
+        </div>
+
+
+        <div class="alertas mx-auto w-25 d-flex mr-1 flex-column justify-content-center ">
+        
+        
+            <h3>Scrolling o Desplazamiento en Modal</h3>
+            <br>
+         
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" aria-labelledby="exampleModalLongTitle" aria-hidden="true"
+                style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal Con Desplazamiento</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="min-height: 1500px">
+                            <p>Automáticamente cuando el contenido es mayor de lo que muestra la pantalla agrega una barra para scroll. <br>
+                            También es posible puede hacer un modal con scroll.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bd-example">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
+                    Launch demo modal scrollable
+                </button>
+            </div>
+
+
+            <br><br>
+        
+        </div>
+        
+
+    </div>
+        
+
+
+        
+
+
+
+
+
+
+
+    <div class="contenedor-boton">
+
+        <button class="boton" type="button">
+            <a href="../index.html">
+                Página Principal
+
+            </a>
+        </button>
+
+
+    </div>
+
+
+    </div>
+
+
+
+   
+
+    
+
+    <script src="../bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+</body>
+
+
+</html>

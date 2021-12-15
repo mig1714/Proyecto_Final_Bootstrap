@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information-Bootstrap</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../css/stylesComponentes.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+    <div class="acordeon">
+
+        <section id="acordeon">
+            <div class="row  descripcion-1 ">
+                <div class="bg-secondary bg-gradient col-12 col-md-12 d-flex  align-items-center border">
+                    <div class="d-flex justify-content-center align-items-center col-6 col-md-6">
+                        <h1 class="d-flex align-items-center pt-3">Information</h1>
+
+                    </div>
+
+                    <div class="d-flex justify-content-between w-25 col-6 col-md-6 fs-3">
+                        <div>
+                            <p><a href="#breadcrumb">Breadcrumb</a></p>
+                    
+                        </div>
+                    
+                        <div>
+                            <p><a href="#pagination">Pagination</a></p>
+                    
+                        </div>
+                    
+                    
+                    
+                    
+                    </div>
+
+                        
+                        
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div class=" d-flex flex-column justify-content-center">
+                <h2 class="bg-info bg-gradient col-12 col-md-12 d-flex justify-content-center align-items-center p-3">
+                    Breadcrumb</h2>
+
+                <h2 class="d-flex justify-content-center align-items-center  bg-info bg-gradient" style="height: 65px">
+                    Descripción</h2>
+                <p class="col-12 col-md-12 p-4 fs-3 d-flex text-center mx-auto w-50 justify-content-center">
+                    Breadcrumb: Indica la ubicación de la página actual
+                    dentro de una jerarquía de navegación y automáticamente agrega
+                    un separador vía CSS.
+                </p>
+
+            </div>
+            <div id="breadcrumb" class="row  ">
+                <div class="alertas mx-auto mb-3 w-50 d-flex flex-column justify-content-center">
+                    <div class="border mb-5 ">
+
+                        <p>Use unal lista  ordenada o desordenada con enlaces a los elementos 
+                            para crear un breadcrumb con un mínimo de estilo. Use las utilidades para
+                            agregar estilos adicionales.</p>
+
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                            </ol>
+                        </nav>
+                        
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+                        
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Data</li>
+                            </ol>
+                        </nav>
+
+                    </div>
+                    <div class="border mb-5">
+                        <p>Divisores son agregados automáticamente en CSS por medio de ::before y contenido.
+                            Ellos puede modificar una propiedad local CSS mediante --bs-breadcrumb-divider,
+                             o en  $breadcrumb-divider Sass variable — y $breadcrumb-divider-flipped para 
+                             RTL. Por defecto ponemos nuestra variable Sass, la cual se configura como un
+                            fallback de la propiedad. De ésta forma, obtienes un divisor global que puede anular
+                             sin recompilar CSS en cualquier momento.</p>
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+
+                        <p>También es posible usar un ícono SVG. Aplicando nuestra propiedad CSS,
+                             o usando la variable Sass.</p>
+
+                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                            aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+
+                        <p>También se puede remover el divisor configurando --bs-breadcrumb-divider: '';
+                             (cadenas vacías en CSS cuenta como un valor), o configurando
+                              la variable Sass a $breadcrumb-divider: none;.</p>
+
+
+                        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+
+
+                    </div>
+                              
+
+
+
+
+                </div>
+            </div>
+            <div id="pagination" class=" d-flex flex-column justify-content-center">
+                <h2 class="bg-info bg-gradient col-12 col-md-12 d-flex justify-content-center align-items-center p-3">
+                    Pagination</h2>
+
+                <h2 class="d-flex justify-content-center align-items-center  bg-info bg-gradient" style="height: 65px">
+                    Descripción
+                </h2>
+                <p class="col-12 col-md-12 p-4 fs-3 d-flex text-center mx-auto w-50 justify-content-center">
+                    Pagination: indica una serie de contenido relacionado que existe através de
+                    múltiples páginas.
+                </p>
+
+            </div>
+
+            <div class="row  ">
+                <div class="alertas mx-auto mb-3 w-50 d-flex flex-column justify-content-center">
+                    <div class="border mb-5 ">
+
+                        
+                        <p>Se usa una gran cantidad enlaces para nuestra paginación, haciendo
+                             que los enlaces difícilmente se pierdan y es fácil de escalar mientras
+                        provee áreas grandes para tocar. La paginación es construído listas HTML así que 
+                        los lectores de pantalla pueden anunciar el número de enlaces disponibles.
+                         Envolviendo con un elemento <nav> para identificar 
+                            como una sección de navegación para los screen readers y otra tecnología asistiva.
+                            </p>
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="border mb-5 ">
+                        <p>Trabajando con íconos</p>
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="border mb-5 ">
+
+                        <p>Estado activos e inactivos</p>
+
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="border mb-5 ">
+
+                    <p>Se puede desahabilitar los achor para quitar la funcionalidad de las flechas</p>
+
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <span class="page-link">Previous</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <span class="page-link">2</span>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="contenedor-boton">
+
+                <button class="boton" type="button">
+                    <a href="../index.html">
+                        Página Principal
+
+                    </a>
+                </button>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <script src="../bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+</body>
+
+
+</html>

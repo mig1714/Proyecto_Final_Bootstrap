@@ -1,0 +1,91 @@
+
+/*Acordeon*/
+
+
+.acordeon{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.acordeon h1{
+
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+.contenedor-boton {
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 35px;
+
+}
+
+a {
+
+    color:rgb(25, 43, 41);
+}
+
+/*Carousel Img*/
+
+.carousel-item.active{
+
+    width: 700px;
+    height: 700px;
+}
+
+
+
+
+
+.boton {
+
+    
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(30, 129, 210);
+    color:rgb(128, 136, 138);
+    border-style: none;
+    position: fixed;
+    bottom: 5px;
+    z-index: 5;
+
+    right: 2%;
+   
+
+}
+
+button a {
+
+    color:rgb(176, 229, 233);
+
+
+}
+
+.boton:hover {
+
+    background-color: rgb(159, 112, 190);
+}
+
+/*Scrollspy*/
+
+
+#navScrollspy-2{
+
+    position: relative;
+    height: 200px;
+    margin-top: 0.5rem;
+    overflow: auto;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+
+
+header {
+
+    margin-top: 40px;
+    /*background-color: rgb(127, 182, 255);*/
+    
+}
+
+nav {
+    font-size: 18px;
+    /*background-color: rgb(95, 160, 149);*/
+    color:rgb(17, 32, 51);
+
+}
+a.nav-link {
+
+
+    color:rgb(36, 41, 46);
+
+}
+a.nav-link:hover {
+
+    color: rgb(156, 156, 177);
+    background-color: rgba(45, 66, 105, 0.815);
+}
+/*Proyecto*/
+.proyectoFinal {
+
+    margin-top: 25px;
+}
+
+/*Componentes*/
+
+#componentes {
+
+    margin-top: 25px;
+    
+
+
+}
+#componentes h2{
+
+    height: 60px;
+}
+.logos{
+
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.contenedor-componentes {
+
+    margin-top: 25px;
+    
+    
+    
+}
+
+
+
+
+/*Footer*/
+
+footer {
+
+    padding-top: 25px;
+}
+
+.fa{
+
+    margin-right: 10px;
+}
